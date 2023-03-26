@@ -4,6 +4,8 @@ import { useTranslation, Trans } from 'react-i18next';
 import { Box } from '@material-ui/core';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
+import Avatar from '@mui/material/Avatar';
+import { ButtonBase, Container, Grid } from '@mui/material';
 
 import './App.css';
 
@@ -28,36 +30,55 @@ function App() {
     setValue(newValue);
   };
 
-  /*
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={() => handleChange} aria-label="basic tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
-        </Tabs>
-      </Box>
-  */
   return (
-    <div className="App">
-      <header className="App-header">
-      <img src={''} className="App-logo" alt="logo" />
+    <div className='App'>
+      <header className='App-header'>
+        <Grid container spacing={3}>
+          <Grid item className={'grid-img'}>
+            <Avatar src={'../assets/gab.jpg'} className='gab-img' alt='Gabriel Zerbine photo' />
+          </Grid>
+
+          <Grid item xs={12} sm container>
+            <Grid item xs container direction='column' spacing={2}>
+              <Grid item xs>
+                <h2>Gabriel Zerbine</h2>
+              </Grid>
+              <Grid item>
+                <h3>Dev</h3>
+              </Grid>
+            </Grid>
+          </Grid>
+
+          <Grid item>
+
+          </Grid>
+        </Grid>
+      </header>
+
+      <body>
+        <Box className='menu' sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <Tabs value={value} onChange={() => handleChange} aria-label='basic tabs example'>
+            <Tab label='Item One' {...a11yProps(0)} />
+            <Tab label='Item Two' {...a11yProps(1)} />
+            <Tab label='Item Three' {...a11yProps(2)} />
+          </Tabs>
+        </Box>
+
         <div>
           {Object.keys(lngs).map((lng: string) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type='submit' onClick={() => i18n.changeLanguage(lng)}>
               {lngs[lng].nativeName}
             </button>
           ))}
         </div>
-      </header>
-      <body>
         <p>
-          <Trans i18nKey="home.siting" />
+          <Trans i18nKey='home.siting' />
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          className='App-link'
+          href='https://reactjs.org'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           {t('home.welcome')}
         </a>
