@@ -1,19 +1,13 @@
 import React from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 
+import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@material-ui/core';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
-import Avatar from '@mui/material/Avatar';
-import { ButtonBase, Container, Grid } from '@mui/material';
 
 import './App.css';
-
-const lngs: {[index: string]:any} = {
-  en: { nativeName: 'English' },
-  fr: { nativeName: 'French' },
-  pt: { nativeName: 'Portuguese' }
-};
+import { Header } from './app/header/Header';
 
 function a11yProps(index: number) {
   return {
@@ -22,7 +16,18 @@ function a11yProps(index: number) {
   };
 }
 
+const useStyles = makeStyles((theme) => ({
+  app: {
+    textAlign: 'center'
+  },
+  menu: {
+    backgroundColor: '#3A4250',
+    color: 'white'
+  },
+}));
+
 function App() {
+  const classes = useStyles();
   const { t, i18n } = useTranslation();
   const [value, setValue] = React.useState(0);
 
@@ -30,33 +35,16 @@ function App() {
     setValue(newValue);
   };
 
+  const changeLanguage = (lng: any) => {
+    return i18n.changeLanguage(lng);
+  };
+
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <Grid container spacing={3}>
-          <Grid item className={'grid-img'}>
-            <Avatar src={'../assets/gab.jpg'} className='gab-img' alt='Gabriel Zerbine photo' />
-          </Grid>
-
-          <Grid item xs={12} sm container>
-            <Grid item xs container direction='column' spacing={2}>
-              <Grid item xs>
-                <h2>Gabriel Zerbine</h2>
-              </Grid>
-              <Grid item>
-                <h3>Dev</h3>
-              </Grid>
-            </Grid>
-          </Grid>
-
-          <Grid item>
-
-          </Grid>
-        </Grid>
-      </header>
+    <div className={classes.app}>
+      <Header changeLanguage={changeLanguage} />
 
       <body>
-        <Box className='menu' sx={{ borderBottom: 1, borderColor: 'divider' }}>
+        <Box className={classes.menu} sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={() => handleChange} aria-label='basic tabs example'>
             <Tab label='Item One' {...a11yProps(0)} />
             <Tab label='Item Two' {...a11yProps(1)} />
@@ -64,13 +52,6 @@ function App() {
           </Tabs>
         </Box>
 
-        <div>
-          {Object.keys(lngs).map((lng: string) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type='submit' onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng].nativeName}
-            </button>
-          ))}
-        </div>
         <p>
           <Trans i18nKey='home.siting' />
         </p>

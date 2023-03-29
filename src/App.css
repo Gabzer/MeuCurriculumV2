@@ -1,31 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #8D5EC7;
-  min-height: 10vh;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding-top: 50px
-}
-
 .App-link {
   color: #61dafb;
-}
-
-.menu {
-  background-color: #3A4250;
-  color: white
-}
-
-.grid-img {
-  margin-left: auto; 
-}
-
-.gab-img {
-  width: 30%;
-  height: 30%;
 }
