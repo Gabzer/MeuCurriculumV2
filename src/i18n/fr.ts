@@ -1,6 +1,5 @@
 export const fr = {
     "website":{
-        "contactMobile": "Contact",
         "title": "Gestionnaire de Park Informatique & Développeur",
         "contact": "Contact"
     },

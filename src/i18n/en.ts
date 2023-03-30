@@ -1,6 +1,5 @@
 export const en = {
     "website":{
-        "contactMobile": "Contact",
         "title": "IT Manager & Developer",
         "contact": "Contact"
     },

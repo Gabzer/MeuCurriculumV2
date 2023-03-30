@@ -1,6 +1,5 @@
 export const pt = {
     "website":{
-        "contactMobile": "Contato",
         "title": "Gestor de TI & Desenvolvedor",
         "contact": "Contato"
     },
