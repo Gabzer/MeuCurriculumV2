@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Body } from '../body/Body';
 import { BodyTabPainel } from '../components/BodyTabPanel';
 import { MenuTabs } from '../components/MenuTabs';
 
@@ -14,7 +15,7 @@ export const Menu = () => {
         <body>
             <MenuTabs handleChangeTab={handleChange} tabValue={value} />
             <BodyTabPainel value={value} index={0}>
-                Item One
+                <Body page={0} />
             </BodyTabPainel>
             <BodyTabPainel value={value} index={1}>
                 Item Two
