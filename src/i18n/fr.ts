@@ -10,7 +10,11 @@ export const fr = {
     },
     "cv":{
         "title1": "Expériences Professionnelles",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Développeur Junior<br><i>Période:</i>.......... 10/2016 - Actuel<br><i>Activités:</i>........ Développement en utilisant les technologies Java EE, HTML, AngularJS, Angular2, Backbone.js, UnderscoreJS, Firebase, Ionic, Spark et Hadoop. J'ai utilisé des architectures comme REST, EJB, et aussi, des bases de données comme PostgreSQL, DB2, Oracle.<br> J'ai travaillé sur des projets: CAIXA ECONOMICA FEDERAL - système de prêts et financement, ME - Ministère des Sports Brésilien - athlète du système de gestion des stocks du gouvernement fédéral.",
+        content1: {
+            _1: '<strong>INDRA COMPANY</strong> - Goiânia - GO',
+            _2: "<i>Fonction:</i>........ Développeur Junior<br><i>Période:</i>.......... 10/2016 - Actuel<br><i>Activités:</i>........ Développement en utilisant les technologies Java EE, HTML, AngularJS, Angular2, Backbone.js, UnderscoreJS, Firebase, Ionic, Spark et Hadoop. J'ai utilisé des architectures comme REST, EJB, et aussi, des bases de données comme PostgreSQL, DB2, Oracle.<br> J'ai travaillé sur des projets: CAIXA ECONOMICA FEDERAL - système de prêts et financement, ME - Ministère des Sports Brésilien - athlète du système de gestion des stocks du gouvernement fédéral."
+        },
+        "content1_1": "<i>Fonction:</i> Développeur Junior<br><i>Période:</i>.......... 10/2016 - Actuel<br><i>Activités:</i>........ Développement en utilisant les technologies Java EE, HTML, AngularJS, Angular2, Backbone.js, UnderscoreJS, Firebase, Ionic, Spark et Hadoop. J'ai utilisé des architectures comme REST, EJB, et aussi, des bases de données comme PostgreSQL, DB2, Oracle.<br> J'ai travaillé sur des projets: CAIXA ECONOMICA FEDERAL - système de prêts et financement, ME - Ministère des Sports Brésilien - athlète du système de gestion des stocks du gouvernement fédéral.",
         "content1_2": "<h2><strong>CCFB ALLIANCE FRANÇAISE DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Accueil de la Médiathèque<br><i>Période:</i>.......... 07/2014 - 09/2016<br><i>Activités:</i>........ Recevoir les élèves à la Médiathèque et leur présenter son contenu. Gérer toute la partie d'IT. J’ai implanté un serveur Windows Server 2012 qui faisait l’authentification des utilisateurs du réseau. J’ai donné de l’assistance technique pour la partie d’IT de l’école.",
         "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Fonction:</i>......... Auxiliaire d'Instalation d'Équipements de Télécommunication<br><i>Période:</i>.......... 01/2014 - 06/2014<br><i>Activités:</i>........ Instalation résidentiel d'équipements qui reçoivent le signal de la télévision payante.",
         
@@ -26,6 +30,7 @@ export const fr = {
 
         "title4": "Autres connaissances",
         "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
+        "content4b": "<h2>CERTIFICATIONS</h2> Scrum Fundamentals Certified",
         "content4_2": "<h2><strong>LANGAGES DE PROGRAMMATION CONNUS</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
         "content4_3": "<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC",
 

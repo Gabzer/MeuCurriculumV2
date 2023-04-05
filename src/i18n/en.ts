@@ -10,7 +10,11 @@ export const en = {
     },
     "cv":{
         "title1": "Professional Experiences",
-        "content1_1": "<h2><strong>INDRA COMPANY</strong> - Goiânia - GO</h2><i>Position:</i>......... Software Developer<br><i>Period:</i>........... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA EE technologies, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Firebase, Ionic, Python, Hadoop, Spark. I also worked with REST, EJB architectures, as well as some databases like PostgreSQL, DB2. Projects with I worked on : CAIXA - Loan and Financing System, ME - Ministry of Sport - Federal Government.",
+        content1: {
+            _1: '<strong>INDRA COMPANY</strong> - Goiânia - GO',
+            _2: '<i>Position:</i>......... Software Developer<br><i>Period:</i>........... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA EE technologies, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Firebase, Ionic, Python, Hadoop, Spark. I also worked with REST, EJB architectures, as well as some databases like PostgreSQL, DB2. Projects with I worked on : CAIXA - Loan and Financing System, ME - Ministry of Sport - Federal Government.'
+        },
+        "content1_1": "<i>Position:</i>......... Software Developer<br><i>Period:</i>........... 10/2016 - Current<br><i>Assignments:</i>.. Development using JAVA EE technologies, HTML, AngularJS, Angular2, BackboneJS, UnderscoreJS, Firebase, Ionic, Python, Hadoop, Spark. I also worked with REST, EJB architectures, as well as some databases like PostgreSQL, DB2. Projects with I worked on : CAIXA - Loan and Financing System, ME - Ministry of Sport - Federal Government.",
         "content1_2": "<h2><strong>CCFB ALIANÇA FRANCESA DE GOIÂNIA</strong> - Goiânia - GO</h2><i>Position:</i>......... Library Clerk and IT Management<br><i>Period:</i>........... 07/2014 - 09/2016<br><i>Assignments:</i>.. Customer service, support and management of the IT. As an IT Manager, I implemented a domain control on local network, performed using the Windows Server 2012 platform. Also computer maintenance.",
         "content1_3": "<h2><strong>TELEMONT</strong> - Goiânia - GO</h2><i>Position:</i>......... Telecommunication Equipment Installation Assistant<br><i>Period:</i>........... 01/2014 - 07/2014<br><i>Assignments:</i>.. Residential installation of equipment for receiving closed channels.",
         
@@ -26,6 +30,7 @@ export const en = {
 
         "title4": "Other knowledge",
         "content4_1": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
+        "content4b": "<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified",
         "content4_2": "<h2><strong>PROGRAMMING LANGUAGES</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala",
         "content4_3": "<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC",
 

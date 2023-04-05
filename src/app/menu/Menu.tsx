@@ -18,10 +18,10 @@ export const Menu = () => {
                 <Body page={0} />
             </BodyTabPainel>
             <BodyTabPainel value={value} index={1}>
-                Item Two
+                <Body page={1} />
             </BodyTabPainel>
             <BodyTabPainel value={value} index={2}>
-                Item Three
+                <Body page={2} />
             </BodyTabPainel>
         </body>
     );
