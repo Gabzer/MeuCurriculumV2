@@ -19,9 +19,6 @@ const useStyles = makeStyles((theme) => ({
         letterSpacing: '1px',
         wordSpacing: '4px',
     },
-    hr: {
-        borderTop: '1px solid #f5f5f5'
-    },
 }));
 
 interface IBody {
