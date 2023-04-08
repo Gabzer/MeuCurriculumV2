@@ -3,8 +3,8 @@ import { useTranslation, Trans } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
 
 import './App.css';
-import { Header } from './app/header/Header';
-import { Menu } from './app/menu/Menu';
+import { Header } from './app/structurePages/Header';
+import { Menu } from './app/structurePages/Menu';
 
 const useStyles = makeStyles((theme) => ({
   app: {

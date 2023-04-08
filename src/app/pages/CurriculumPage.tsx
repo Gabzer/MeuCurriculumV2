@@ -4,11 +4,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box } from '@mui/material';
 
 import { Content } from '../components/Content';
-import { ExperienceSection } from '../components/ExperienceSection';
-import { FormationSection } from '../components/FormationSection';
-import { LanguageSection } from '../components/LanguageSection';
-import { OtherSection } from '../components/OtherSection';
-import { ProjectsSection } from '../components/ProjectsSection';
+import { ExperienceSection } from '../sections/ExperienceSection';
+import { FormationSection } from '../sections/FormationSection';
+import { LanguageSection } from '../sections/LanguageSection';
+import { OtherSection } from '../sections/OtherSection';
+import { ProjectsSection } from '../sections/ProjectsSection';
 
 const useStyles = makeStyles((theme) => ({
     content: {

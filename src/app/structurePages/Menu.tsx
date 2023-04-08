@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Body } from '../body/Body';
+import { Body } from './Body';
 import { BodyTabPainel } from '../components/BodyTabPanel';
 import { MenuTabs } from '../components/MenuTabs';
 
