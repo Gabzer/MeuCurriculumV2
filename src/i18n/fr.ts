@@ -71,7 +71,7 @@ export const fr = {
             timeCountry: 'Permanence dans le pays',
             fr: {
                 _1: '<strong>FRANÇAIS</strong>',
-                _2: ' Avancé/Fluent',
+                _2: ' Avancé / Fluent',
                 _3: " DELF B2 - atribué par le Ministère de l'Éducation Français",
                 _4: ' période de 5 ans en France et depuis 2018 vivant dans une province francophone du Canada',
             },
@@ -82,22 +82,30 @@ export const fr = {
             },
             en: {
                 _1: '<strong>ANGLAIS</strong>',
-                _2: ' Basic/Téchnique',
+                _2: ' Basic / Téchnique',
             },
             pt: {
-                _1: '',
-                _2: '',
+                _1: '<strong>PORTUGAIS</strong>',
+                _2: ' Langue Maternelle',
             },
         },
 
-        title4: 'Autres connaissances',
-        content4_1: '<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified',
-        content4b: '<h2>CERTIFICATIONS</h2> Scrum Fundamentals Certified',
-        content4_2: '<h2><strong>LANGAGES DE PROGRAMMATION CONNUS</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala',
-        content4_3: '<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC',
+        content4: {
+            title4: 'Autres connaissances',
+            certification: '<strong>CERTIFICATIONS</strong>',
+            devLanguages: '<strong>LANGAGES DE PROGRAMMATION CONNUS</strong>',
+            architectures: '<strong>ARCHITECTURES</strong>',
+            _1: ' Scrum Fundamentals Certified',
+            _2: ' React, JavaScript, Html, CSS, Angular, Ionic, Java, SQL, Python',
+            _3: ' Hooks, Redux, REST, EJB, JSF, MVC',
+        },
 
-        title5: 'Projet Développé',
-        content5: "<h2><strong>JEUNES PROFESSIONNELS</strong> - Indra Company</h2><i>Réalisations:</i> Projet réalisé par l'entreprise Indra Company dans le but de former les futurs professionnels qui seront prêts à être affectés dans une série de projets avec des différentes architectures et languages.<br>Après un processus de sélection en présence de 700 personnes, 15 d'entre elles ont été choisis pour faire l'expérience d'une période de trois mois où leur ont été présentés à divers langages de programmation et les architectures des différents projets. Après cette période, 7 seraient choisis pour travailler dans l'entreprise, les 7 meilleurs.<br>Dans ce processus, j'ai vraiment rencontré de nombreuses architectures et des langues que je ne connaissais pas, des frameworks, divers outils, les processus d'une fabrique des logiciels, tests unitaire, repositories, Scrum dans la pratique, etc... L'un des fruits de cette période est l'application qui est dans Google Play appelé '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' qui a été développé avec le framework Ionic. Quoi qu'il en soit, je suis resté parmi ces 7 qui seraient embauchés."
+        content5: {
+            title5: 'Projet Développé',
+            secondaryTitle: '<strong>JEUNES PROFESSIONNELS</strong> - Indra Company',
+            achievements: 'Réalisations',
+            _1: " Projet réalisé par l'entreprise Indra Company dans le but de former les futurs professionnels qui seront prêts à être affectés dans une série de projets avec des différentes architectures et languages.<br>Après un processus de sélection en présence de 700 personnes, 15 d'entre elles ont été choisis pour faire l'expérience d'une période de trois mois où leur ont été présentés à divers langages de programmation et les architectures des différents projets. Après cette période, 7 seraient choisis pour travailler dans l'entreprise, les 7 meilleurs.<br>Dans ce processus, j'ai vraiment rencontré de nombreuses architectures et des langues que je ne connaissais pas, des frameworks, divers outils, les processus d'une fabrique des logiciels, tests unitaire, repositories, Scrum dans la pratique, etc... L'un des fruits de cette période est l'application qui est dans Google Play appelé '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=fr' target='_blank'>Estacione</a>' qui a été développé avec le framework Ionic. Quoi qu'il en soit, je suis resté parmi ces 7 qui seraient embauchés."
+        },
     },
     contact:{
         title: 'Contacts'

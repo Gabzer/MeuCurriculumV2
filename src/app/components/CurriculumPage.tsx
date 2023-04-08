@@ -300,7 +300,7 @@ export const CurriculumPage = () => {
         <List sx={{ width: '100%', maxWidth: '99%', bgcolor: 'background.paper' }}>
             <ListItem alignItems='flex-start'>
                 <ListItemAvatar>
-                    <Avatar alt='French' src='../assets/France.png' sx={{ width: 56, height: 56 }} />
+                    <Avatar alt='French' src='../assets/France.png' />
                 </ListItemAvatar>
                 <ListItemText primary={<Trans i18nKey='cv.content3.fr._1' />}
                               className={classes.listItemText}
@@ -340,6 +340,158 @@ export const CurriculumPage = () => {
                 />
             </ListItem>
             <Divider variant='inset' component='li' />
+
+            <ListItem alignItems='flex-start'>
+                <ListItemAvatar>
+                    <Avatar alt='English' src='../assets/United-States.png' />
+                </ListItemAvatar>
+                <ListItemText primary={<Trans i18nKey='cv.content3.en._1' />}
+                              className={classes.listItemText}
+                              secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content3.level' />  — 
+                                    </Typography>
+                                    <Trans i18nKey='cv.content3.en._2' />
+                                </>
+                              }
+                />
+            </ListItem>
+            <Divider variant='inset' component='li' />
+
+            <ListItem alignItems='flex-start'>
+                <ListItemAvatar>
+                    <Avatar alt='Italien' src='../assets/Italy.png' />
+                </ListItemAvatar>
+                <ListItemText primary={<Trans i18nKey='cv.content3.it._1' />}
+                            className={classes.listItemText}
+                            secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content3.level' />  — 
+                                    </Typography>
+                                    <Trans i18nKey='cv.content3.it._2' />
+                                </>
+                            }
+                />
+            </ListItem>
+            <Divider variant='inset' component='li' />
+
+            <ListItem alignItems='flex-start'>
+                <ListItemAvatar>
+                    <Avatar alt='Portuguese' src='../assets/Brazil.png' />
+                </ListItemAvatar>
+                <ListItemText primary={<Trans i18nKey='cv.content3.pt._1' />}
+                            className={classes.listItemText}
+                            secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content3.level' />  — 
+                                    </Typography>
+                                    <Trans i18nKey='cv.content3.pt._2' />
+                                </>
+                            }
+                />
+            </ListItem>
+        </List>
+    );
+
+    const content4 = (
+        <List sx={{ width: '100%', maxWidth: '99%', bgcolor: 'background.paper' }}>
+            <ListItem alignItems='flex-start'>
+                <ListItemText primary={<Trans i18nKey='cv.content4.certification' />}
+                              className={classes.listItemText}
+                              secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content4._1' />
+                                    </Typography>
+                                </>
+                              }
+                />
+            </ListItem>
+            <Divider variant='inset' component='li' />
+            
+            <ListItem alignItems='flex-start'>
+                <ListItemText primary={<Trans i18nKey='cv.content4.devLanguages' />}
+                              className={classes.listItemText}
+                              secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content4._2' />
+                                    </Typography>
+                                </>
+                              }
+                />
+            </ListItem>
+            <Divider variant='inset' component='li' />
+            
+            <ListItem alignItems='flex-start'>
+                <ListItemText primary={<Trans i18nKey='cv.content4.architectures' />}
+                              className={classes.listItemText}
+                              secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content4._3' />
+                                    </Typography>
+                                </>
+                              }
+                />
+            </ListItem>
+        </List>
+    );
+
+    const content5 = (
+        <List sx={{ width: '100%', maxWidth: '99%', bgcolor: 'background.paper' }}>
+            <ListItem alignItems='flex-start'>
+                <ListItemText primary={<Trans i18nKey='cv.content5.secondaryTitle' />}
+                              className={classes.listItemText}
+                              secondary={
+                                <>
+                                    <Typography
+                                        sx={{ display: 'inline' }}
+                                        component='span'
+                                        variant='body2'
+                                        color='text.primary'
+                                    >
+                                        <Trans i18nKey='cv.content5.achievements' />  — 
+                                    </Typography>
+                                    <Trans i18nKey='cv.content5._1' />
+                                </>
+                              }
+                />
+            </ListItem>
+            <Divider variant='inset' component='li' />
         </List>
     );
 
@@ -348,8 +500,8 @@ export const CurriculumPage = () => {
             <Content headContent={t('cv.content1.title1')} mainContent={content1} footer={false}/>
             <Content headContent={t('cv.content2.title2')} mainContent={content2} footer={false}/>
             <Content headContent={t('cv.content3.title3')} mainContent={content3} footer={false}/>
-            <Content headContent={t('cv.title4')} mainContent={'test'} footer={false}/>
-            <Content headContent={t('cv.title5')} mainContent={'test'} footer={true}/>
+            <Content headContent={t('cv.content4.title4')} mainContent={content4} footer={false}/>
+            <Content headContent={t('cv.content5.title5')} mainContent={content5} footer={true}/>
         </Box>
     );
 }

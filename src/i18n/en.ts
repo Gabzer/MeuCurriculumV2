@@ -82,22 +82,30 @@ export const en = {
             },
             en: {
                 _1: '<strong>ENGLISH</strong>',
-                _2: ' Basic/Technician',
+                _2: ' Basic / Technician',
             },
             pt: {
-                _1: '',
-                _2: '',
+                _1: '<strong>PORTUGUESE</strong>',
+                _2: ' Native Language',
             },
         },
 
-        title4: 'Other knowledge',
-        content4_1: '<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified',
-        content4b: '<h2><strong>CERTIFICATIONS</strong></h2>Scrum Fundamentals Certified',
-        content4_2: '<h2><strong>PROGRAMMING LANGUAGES</strong></h2>Html, CSS, JavaScript, AngularJS, Angular2, jQuery, BackboneJS, UnderscoreJS, Ionic, PHP, C#, C, Java, SQL, Python, Scala',
-        content4_3: '<h2><strong>ARCHITECTURES</strong></h2>REST, EJB, JSF, MVC',
+        content4: {
+            title4: 'Other knowledge',
+            certification: '<strong>CERTIFICATIONS</strong>',
+            devLanguages: '<strong>PROGRAMMING LANGUAGES</strong>',
+            architectures: '<strong>ARCHITECTURES</strong>',
+            _1: ' Scrum Fundamentals Certified',
+            _2: ' React, JavaScript, Html, CSS, Angular, Ionic, Java, SQL, Python',
+            _3: ' Hooks, Redux, REST, EJB, JSF, MVC',
+        },
 
-        title5: 'Developed Projects',
-        content5: "<h2><strong>PROFESSIONAL YOUTH</strong> - Indra Company</h2><i>Achievements:</i> Project developed by Indra Company to train future professionals who are prepared to be.<br>After a selection process where 700 people participated, 15 of them were chosen to experience a period of 3 months where they were presented to them several programming languages ​​and different project architectures. In this whole process, I really knew many architectures and languages ​​that I did not even know existed, frameworks, various tools, processes of a new software factory, Unit tests, repositories, Scrum in practice, etc ... One of the fruits of this period is an application that is in Google Play called '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=en' target='_blank'>Estacione</a>' which was developed by the Ionic framework. Anyway, I managed to stay among the 7 that would be hired."
+        content5: {
+            title5: 'Developed Projects',
+            secondaryTitle: '<strong>PROFESSIONAL YOUTH</strong> - Indra Company',
+            achievements: 'Achievements',
+            _1: " Project developed by Indra Company to train future professionals who are prepared to be.<br>After a selection process where 700 people participated, 15 of them were chosen to experience a period of 3 months where they were presented to them several programming languages ​​and different project architectures. In this whole process, I really knew many architectures and languages ​​that I did not even know existed, frameworks, various tools, processes of a new software factory, Unit tests, repositories, Scrum in practice, etc ... One of the fruits of this period is an application that is in Google Play called '<a href='https://play.google.com/store/apps/details?id=com.indra.estaciona&hl=en' target='_blank'>Estacione</a>' which was developed by the Ionic framework. Anyway, I managed to stay among the 7 that would be hired."
+        },
     },
     contact:{
         title: 'Contact'
