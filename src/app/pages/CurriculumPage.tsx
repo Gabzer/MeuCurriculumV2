@@ -3,7 +3,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import { makeStyles } from '@material-ui/core/styles';
 import { Avatar, Box, Divider, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material';
 
-import { Content } from './Content';
+import { Content } from '../components/Content';
 
 const useStyles = makeStyles((theme) => ({
     content: {
@@ -491,7 +491,6 @@ export const CurriculumPage = () => {
                               }
                 />
             </ListItem>
-            <Divider variant='inset' component='li' />
         </List>
     );
 
