@@ -108,6 +108,6 @@ export const en = {
         },
     },
     contact:{
-        title: 'Contact'
+        title: 'Contacts'
     }
 }
