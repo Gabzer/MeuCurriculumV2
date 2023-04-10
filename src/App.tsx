@@ -1,4 +1,4 @@
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -33,11 +33,3 @@ function App() {
 }
 
 export default App;
-/*
-<body>
-  <p>
-    <Trans i18nKey='home.siting' />
-  </p>
-  {t('home.welcome')}
-</body>
-*/

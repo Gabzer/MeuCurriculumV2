@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [React](https://react.dev/) and [MaterialUI](https://mui.com/material-ui/). The language used was [Typescript](https://www.typescriptlang.org/).
 
 ## Available Scripts
 
